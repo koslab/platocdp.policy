@@ -23,3 +23,7 @@ gs.profile(name=u'default',
            title=u'platocdp.policy',
            description=_(u''),
            directory='profiles/default')
+
+from platocdp.policy import patches 
+
+patches.apply_patches()

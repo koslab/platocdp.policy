@@ -13,5 +13,7 @@
         <dependency>profile-Products.CMFPlacefulWorkflow:base</dependency>
         <dependency>profile-plone.app.iterate:plone.app.iterate</dependency>
         <dependency>profile-collective.unslider:default</dependency>
+        <dependency>profile-Products.ContentWellPortlets:default</dependency>
+        <dependency>profile-collective.quickupload:default</dependency>
     </dependencies>
 </metadata>
