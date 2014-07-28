@@ -1,7 +1,7 @@
 Changelog
 =========
 
-'4.0' - Unreleased
----------------------
+4.0b1 (2014-07-28)
+------------------
 
  - Initial public beta release
