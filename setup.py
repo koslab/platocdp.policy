@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '4.0b1'
+version = '4.0b2.dev0'
 
 setup(name='platocdp.policy',
       version=version,
