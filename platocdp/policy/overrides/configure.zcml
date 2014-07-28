@@ -9,6 +9,10 @@
           permission="zope2.ViewManagementScreens"
           template="templates/plone-addsite.pt"
           />
+      <browser:resource
+          name="plone-logo.png"
+          file="logo.png"
+          />
   </unconfigure>
 
   <browser:page
@@ -20,7 +24,7 @@
       />
 
   <browser:resource
-      name="platocdp-logo.png"
+      name="plone-logo.png"
       file="logo.png"
       />
 
