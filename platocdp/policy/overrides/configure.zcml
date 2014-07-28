@@ -19,4 +19,9 @@
       template="templates/plone-addsite.pt"
       />
 
+  <browser:resource
+      name="platocdp-logo.png"
+      file="logo.png"
+      />
+
 </configure>
