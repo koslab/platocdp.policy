@@ -47,6 +47,7 @@ setup(name='platocdp.policy',
           'plone.app.multilingual',
           'plone.app.ldap',
           'collective.quickupload',
+          'platocdp.newsportlet',
           'webcouturier.dropdownmenu',
           # -*- Extra requirements: -*-
       ],
