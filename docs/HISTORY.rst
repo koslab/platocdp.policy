@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.0b2 (unreleased)
+4.0b2 (2015-02-12)
 ------------------
 
 - Nothing changed yet.
