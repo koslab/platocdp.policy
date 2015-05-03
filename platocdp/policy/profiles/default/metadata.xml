@@ -13,7 +13,9 @@
         <dependency>profile-Products.CMFPlacefulWorkflow:base</dependency>
         <dependency>profile-plone.app.iterate:plone.app.iterate</dependency>
         <dependency>profile-collective.unslider:default</dependency>
-        <dependency>profile-Products.ContentWellPortlets:default</dependency>
+        <!--<dependency>profile-Products.ContentWellPortlets:default</dependency>-->
         <dependency>profile-collective.quickupload:default</dependency>
+        <dependency>profile-collective.portletpage:default</dependency>
+        <dependency>profile-platocdp.devoops:default</dependency>
     </dependencies>
 </metadata>

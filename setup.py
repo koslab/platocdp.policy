@@ -49,6 +49,10 @@ setup(name='platocdp.policy',
           'collective.quickupload',
           'platocdp.newsportlet',
           'webcouturier.dropdownmenu',
+          'collective.elasticindex',
+          'collective.portletpage',
+          'platocdp.timesheet',
+          'platocdp.devoops',
           # -*- Extra requirements: -*-
       ],
       extras_require={
