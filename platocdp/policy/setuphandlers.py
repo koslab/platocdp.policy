@@ -12,7 +12,8 @@ def setupVarious(context):
     if context.readDataFile('platocdp.policy.marker.txt') is None:
         return
     portal = context.getSite()
-    
+
+    # swap logo
     custom=portal.portal_skins.custom
     if not 'logo.png' in custom.keys():
         custom.manage_addProduct['OFSP'].manage_addImage(
@@ -20,4 +21,9 @@ def setupVarious(context):
                  os.path.join(basedir, 'overrides', 'logo.png')
              )
         )
-    # do anything here
+
+
+    # replace with memcache
+    portal.manage_delObjects(['RAMCache'])
+    portal.manage_addProduct['MemcachedManager'].manage_addMemcachedManager(id='RAMCache')
+
