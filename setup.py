@@ -53,7 +53,6 @@ setup(name='platocdp.policy',
           'collective.portletpage',
           'platocdp.timesheet',
           'platocdp.devoops',
-          'platocdp.views',
           'Products.MemcachedManager',
           'python-memcached',
           # -*- Extra requirements: -*-
