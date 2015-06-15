@@ -55,6 +55,9 @@ setup(name='platocdp.policy',
           'platocdp.devoops',
           'Products.MemcachedManager',
           'python-memcached',
+          'platocdp.views',
+          'collective.indexing',
+          'platocdp.contextnav',
           # -*- Extra requirements: -*-
       ],
       extras_require={
