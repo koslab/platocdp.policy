@@ -58,6 +58,7 @@ setup(name='platocdp.policy',
           'platocdp.views',
           'collective.indexing',
           'platocdp.contextnav',
+          'platocdp.dataportal',
           # -*- Extra requirements: -*-
       ],
       extras_require={
